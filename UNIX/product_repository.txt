@@ -1,0 +1,10 @@
+Laptop|Electronics|₹75000|High-performance laptop for professionals
+Smartphone|Electronics|₹45000|Latest smartphone with advanced features
+Headphones|Electronics|₹6500|Wireless noise-canceling headphones
+Tablet|Electronics|₹22000|10-inch tablet for entertainment and work
+Keyboard|Electronics|₹3500|Mechanical gaming keyboard
+Mouse|Electronics|₹2200|Wireless optical mouse
+Monitor|Electronics|₹15000|24-inch HD monitor
+Printer|Electronics|₹11000|All-in-one printer and scanner
+Camera|Electronics|₹30000|Digital camera with 4K recording
+Speaker|Electronics|₹6000|Bluetooth portable speaker 
