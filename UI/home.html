@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Online Grocery Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="home-container">
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <div class="nav-brand">🛒 Online Grocery Store</div>
+            <div class="nav-links">
+                <a href="#" class="nav-link" onclick="showHome()">Home</a>
+                <a href="#" class="nav-link" onclick="showProfile()">My Profile</a>
+                <a href="#" class="nav-link" onclick="showCart()">Cart <span id="cart-count">0</span></a>
+                <a href="login.html" class="nav-link">Logout</a>
+            </div>
+        </nav>
+
+        <!-- Welcome Header -->
+        <div class="welcome-header">
+            <h1 class="welcome-text" id="welcome-text">Hello <span id="customer-name">Customer</span> to Online Grocery Store</h1>
+        </div>
+
+        <!-- Main Content Area -->
+        <div id="main-content">
+            <!-- Home Page Content -->
+            <div id="home-content">
+                <div class="products-grid" id="products-grid">
+                    <!-- Products will be loaded here -->
+                </div>
+            </div>
+
+            <!-- Profile Content -->
+            <div id="profile-content" style="display: none;">
+                <div class="profile-container">
+                    <div class="profile-card">
+                        <div class="profile-header">
+                            <h2 class="profile-title">My Profile</h2>
+                        </div>
+                        <div id="profile-details">
+                            <!-- Profile details will be loaded here -->
+                        </div>
+                        <button class="edit-btn" onclick="editProfile()">Update</button>
+                        <button class="save-btn" onclick="saveProfile()" style="display: none;">Save</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cart Content -->
+            <div id="cart-content" style="display: none;">
+                <div class="cart-container">
+                    <div class="cart-layout">
+                        <div class="cart-items">
+                            <h2>Your Cart</h2>
+                            <div id="cart-items-list">
+                                <!-- Cart items will be loaded here -->
+                            </div>
+                        </div>
+                        <div class="cart-summary">
+                            <h3 class="summary-title">Summary</h3>
+                            <div id="cart-summary-details">
+                                <!-- Cart summary will be loaded here -->
+                            </div>
+                            <button class="checkout-btn" onclick="checkout()">Checkout</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Invoice Content -->
+            <div id="invoice-content" style="display: none;">
+                <div class="invoice-container">
+                    <div class="invoice-card">
+                        <div class="invoice-header">
+                            <h2 class="invoice-title">Order Invoice</h2>
+                            <p>Order Placed Successfully</p>
+                        </div>
+                        <div id="invoice-details">
+                            <!-- Invoice details will be loaded here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
